@@ -25,7 +25,7 @@ p {
 .header {
 	background: url("../images/bcg.jpg") center;
 	background-size: cover;
-	height:518px;
+	height:500px;
 	color: #fff;
 }
 .header h2 {
@@ -34,18 +34,12 @@ p {
 	line-height: 48px;
 	margin-top:119px;
 }
-.header h2 span { font-size:18px; line-height:30px; display:block;}
-.win-google { overflow:hidden; margin:0; list-style:none; padding:15px 0 0 0; height:47px; text-align:left;}
-.win-google li { margin:0 48px 0 0; display:inline;}
-.win-google li.end { margin:0;}
-.win-google li img { margin:0;}
-.win-google li.end img { margin-top:4px;}
-.header img{ margin:65px 0 0 20px;}
+.header img{ margin:99px 0 0 28px;}
 .navbar-text { background:url(../images/divider.png) left center no-repeat; padding-left:15px; font-size:11px; margin-top:5px;}
 .navbar-text a{ color:#fff;}
 #app-tray {
-  background: #fff;
-  height: 57px;
+  background: #faf9f4;
+  height: 83px;
 }
 /* line 6, ../../_assets/sass/_app-tray.scss */
 #app-tray .row {
@@ -78,7 +72,7 @@ p {
 }
 /* line 53, ../../_assets/sass/_app-tray.scss */
 #app-tray figure img {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 /* line 60, ../../_assets/sass/_app-tray.scss */
 #app-tray a figcaption {
@@ -137,7 +131,7 @@ h3{ font-size:20px; color:#36495a; font-weight:normal; padding:0; margin:0; line
 }
 
 #features #vault-messenger {
-  background: white url("../images/requirement.png") center 90% no-repeat;
+  background: white url("../images/requirement.png") bottom no-repeat;
 }
 
 .culture {
@@ -172,7 +166,8 @@ h3{ font-size:20px; color:#36495a; font-weight:normal; padding:0; margin:0; line
 }
 .bottom-modules .span3 {
 	background:url(../images/divid-ver.png) repeat-y right;
-	
+	padding-right:20px;
+	width:200px;
 }
 .bottom-modules .span3.end-item {
 	background:none !important;
@@ -191,7 +186,7 @@ h3{ font-size:20px; color:#36495a; font-weight:normal; padding:0; margin:0; line
 	font-family:"FrutigerLTW01-45Light";
 }
 .bottom-modules p {
-	font-size:12px;
+	font-size:11px;
 	color:#363737;
 	font-family:"FrutigerLTW01-55Roman";
 }
@@ -504,6 +499,200 @@ hr.seperator {
 	height:1px;
 	background:#d7d8db;
 }
+
+
+.family_guardian .header.product-head .container {
+	padding-top: 268px;
+}
+.family_guardian .header.product-head {
+	background:url(../images/bcg1_Family_Guardian.jpg) no-repeat center;
+	background-size:cover;
+	height:auto;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.family_guardian .protect_child {
+	font-family:"FrutigerLTW01-45Light";
+	color:#000;
+	font-weight:normal !important;
+}
+.family_guardian .protect_child h1 {	
+	font-size:40px;
+	font-weight:normal !important;
+}
+.family_guardian .protect_child h5 {	
+	font-size:22px;
+	font-weight:normal !important;
+}
+.family_guardian .rebon-down {
+	background: url("../images/nav2bg-family_guardian.png") repeat scroll 0 0 transparent
+}
+.family_guardian .rebon-down a {
+	color:#414042;
+}
+.family_guardian .brand-all {
+	background: url("../images/nav3bg-family_guardian.png") repeat scroll 0 0 transparent
+}
+.family_guardian .section-1st ul {
+	margin-left:0;
+	margin-top:32px;
+}
+.family_guardian .section-1st ul li {
+	list-style:none;
+	color:#9D9EA0;
+	line-height:30px;
+}
+.family_guardian .section-2st h3 {
+	font-family:"Frutiger LT W01 65 Bold";
+	font-size:30px;
+}
+.family_guardian .section-2st h3 sup {
+	font-size: 11px;
+    position: relative;
+    top: -7px;
+}
+.family_guardian .section-2st .span6.offset1 {
+	margin-left:80px;
+}
+.family_guardian .product-fiture-list .li-item-txt {
+    float: left;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 310px;
+	color:#9d9ea0;
+}
+.family_guardian .product-fiture-list .li-item {
+	margin-top:5px;
+}
+.family_guardian .phone-nq {
+	width:279px;
+	height:553px;
+	position:absolute;
+	padding:81px 0 0 21px;
+	background:url(../images/cell-phone-slider.png) no-repeat;
+}
+.family_guardian .section-2st {
+	height:395px;
+}
+.family_guardian .section-3rd {
+    background: url("../images/darl-bg_Family_Guardian.png") repeat-x scroll 0 0 #efb234;
+    margin: 0;
+    padding:45px 0 17px;
+	color:#000;
+}
+.family_guardian .section-3rd h5 {
+	margin-top:30px;
+	margin-bottom:0;
+	color:#000;
+	font-size:18px;
+	font-family:"Frutiger LT W01 65 Bold";
+}
+.family_guardian .section-3rd p {
+	color:#000;
+	font-size:16px;
+	font-family:"FrutigerLTW01-45Light";
+}
+.family_guardian .section-4rd {
+	min-height:800px;
+	margin-bottom:0;
+}
+.family_guardian .section-4rd .row {
+	position:relative;
+}
+.family_guardian .section-5rd  {
+	background:#f0f2f4;
+}
+.geo {
+	min-height:140px;
+}
+.geo h1 {
+	font-size:33px;
+	text-align:left;
+	line-height:52px;
+	color:#000;
+	margin:0;
+	font-family:"FrutigerLTW01-55Roman";
+	
+}
+.geo p {
+	font-size:20px;
+	text-align:left;
+	color:#54565c;
+	line-height:normal;
+	font-family:"FrutigerLTW01-45Light";
+}
+.geo-location {
+	margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    z-index: -1;
+	right: 0;
+}
+.family_guardian .understanding-txt {
+	position:relative;
+	margin-top:90px;
+}
+.family_guardian .understanding-txt h3 {
+	font-size:21px;
+	line-height:25px;
+	margin-bottom:6px;
+}
+.family_guardian .understanding-txt p {
+	font-size:16px;
+	line-height:25px;
+	margin-bottom:6px;
+}
+.family_guardian .section-5rd h1 {
+	font-size:29px;
+	font-weight:normal;
+	text-align:center;
+	color:#000;
+	font-family:"FrutigerLTW01-55Roman";
+	margin-bottom:35px;
+}
+.slid-inside-scoop {
+    min-height: 510px;
+    text-align: center;
+    width: 100%;
+}
+.family_guardian .section-6rd h1 {
+	font-size:29px;
+	font-weight:normal;
+	color:#000000;
+	margin-bottom:33px;
+	font-family:"FrutigerLTW01-45Light";
+}
+.family_guardian .section-6rd p {
+	font-size:29px;
+	line-height:35px;
+	font-weight:300;
+	color:#000000;
+	font-family:"Lato";
+}
+
+.family_guardian .section-6rd {
+	background:url(../images/all-co-icons.jpg) repeat-x bottom center;
+	
+}
+.family_guardian .section-7rd  {
+	background:#e4e6eb;
+	padding-top:43px;
+}
+.family_guardian .carousel-inner {
+	width:257px;
+}
+.family_guardian  #myCarousel .left.carousel-control, .family_guardian  #myCarousel .right.carousel-control {
+	display:none;
+}
+.family_guardian  #myCarousel:hover .left.carousel-control, .family_guardian  #myCarousel:hover .right.carousel-control {
+	display:block;
+}
+.family_guardian .carousel-control.right {
+    left: auto;
+    right: 36px;
+}
 /* =-=-=-=-= FOOTER =-=-=-=-=-= */
 footer {
 	clear:both;
@@ -578,7 +767,6 @@ footer h6 {
 .footer-bottom ul li a:hover img {
 	opacity:0.8;
 }
-.span12.center-align { float:none; margin:0 auto;}
 @media (min-width:768px) and (max-width:979px) {
 	
 	.bottom-modules .span3 {
@@ -617,10 +805,6 @@ footer h6 {
 	.container-fluid.header .span5.offset1 {
 		margin-left:0;
 	}
-	.win-google li { margin-right:20px;}
-	#app-tray ul { text-align:center;}
-	#app-tray ul li { float:none !important; display:inline-block;}
-	#app-tray .row a { width:160px; float:none; display:inline-block;
 	
 }
 	@media (max-width: 820px) {
@@ -685,10 +869,6 @@ footer h6 {
 	.phone-nq img {
 		display:none;
 	}
-	.understanding-phone {
-		display:none;
-	}
-	.understanding-txt { position:relative; padding:0 0 80px; margin:25px 0 0 0;}
 	.section-3rd .span5 p {
 		width:80%;
 		display:table;
@@ -785,14 +965,47 @@ footer h6 {
 	footer .ul-list ul {
 		display:none;
 	}
+	.family_guardian .phone-nq {
+		display:none;
+	}
+	
+	.family_guardian .section-2st .span6.offset1 {
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.family_guardian .product-fiture-list .li-item-txt {
+		width:100%;
+		margin:0 auto;
+	}
+	.geo h1, .geo p {
+		text-align:center;
+	}
+	.family_guardian .section-7rd .span3 {
+		width:100%;
+		text-align:center;
+	}
+	.ul-list .span2 {
+		clear:both;
+		overflow:hidden;
+		width:100%;
+	}
+	.ul-list .span2.offset1, .ul-list .span2 {
+		margin:0;
+		text-align:center;
+	}
+	.bottom-modules .span3 {
+		width:100%;
+	}
 }
 @media(max-width:876px) {
 	.brand-all ul li.windows {
 		display:none;
-	}}
+	}
+	
 }
 @media(max-width:579px) {
-	.brand-all ul li.app-store {
+.brand-all ul li.app-store {
 		display:none;
 	}
 	.handcraft ul {
@@ -815,19 +1028,168 @@ footer h6 {
 		margin-bottom:20px;
 		margin-right:0 !important;
 	}
-	.home-header { position:relative; overflow:hidden;}
 }
-@media(max-width:768px) {
-.header h2 { margin-top:20px;}
-.win-google { text-align:center; padding-bottom:15px; clear:both;}
-.win-google li img { margin:0 !important;}
+ @media(max-width:600px) {
 }
-@media(max-width:767px) {
-	.header.home-header .aim-phone img { width:190px;}
-}
-@media(max-width:580px) {
-	#app-tray figure { width:120px;}
-	#app-tray .row a { width:120px;}
+@media(max-width:480px) {
 }
  @media(max-width:320px) {
+}
+
+
+/* SLIDER */
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel .container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 60px;
+}
+
+
+.carousel-control {
+position: absolute;
+top: 40%;
+left: 15px;
+width: 40px;
+height: 40px;
+margin-top: 20px;
+font-size: 60px;
+font-weight: 100;
+line-height: 30px;
+color: white;
+text-align: center;
+background: #222;
+border: 3px solid white;
+-webkit-border-radius: 23px;
+-moz-border-radius: 23px;
+border-radius: 23px;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+.carousel .item {
+  height: 412px;
+}
+.carousel img {
+  min-width: 100%;
+  height: 411px;
+}
+
+.carousel-caption {
+  background-color: transparent;
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}
+.unstyled li {
+    display: inline;
+    vertical-align: baseline;
+    padding: 0 16px;
+    position: relative;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+  .container.navbar-wrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+ .carousel .container {
+  top: 20px;
+  } 
+  .navbar-inner {
+    border-radius: 0;
+  }
+
+  .carousel .item {
+    height: 500px;
+  }
+  .carousel img {
+    width: auto;
+    height: 500px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .carousel {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+ .carousel .container {
+  top: 20px;
+  }   
+  .carousel .item {
+    height: 300px;
+  }
+  .carousel img {
+    height: 300px;
+  }
+  .carousel-caption {
+    width: 65%;
+    padding: 0 70px;
+    margin-bottom: 40px;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption .lead,
+  .carousel-caption .btn {
+    font-size: 18px;
+  }
+
+
 }
