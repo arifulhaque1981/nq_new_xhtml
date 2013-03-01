@@ -33,16 +33,17 @@ p {
 	font-weight: normal;
 	line-height: 48px;
 	margin-top:119px;
+	margin-bottom:0;
 }
-.header h2 span { font-size:18px; line-height:30px; display:block;}
+.header h3 { font-size:18px; line-height:24px; font-weight:normal; color:#fff; margin:0;}
 .win-google { overflow:hidden; margin:0; list-style:none; padding:15px 0 0 0; height:47px; text-align:left;}
-.win-google li { margin:0 48px 0 0; display:inline;}
-.win-google li.end { margin:0;}
-.win-google li img { margin:0;}
-.win-google li.end img { margin-top:4px;}
-.header img{ margin:65px 0 0 20px;}
+.win-google a { margin:0 48px 0 0; display:block; float:left;}
+.win-google a.end { margin:0;}
+.win-google a img { margin:0;}
+.win-google a.end img { margin-top:4px;}
+.header img { margin:65px 0 0 20px;}
 .navbar-text { background:url(../images/divider.png) left center no-repeat; padding-left:15px; font-size:11px; margin-top:5px;}
-.navbar-text a{ color:#fff;}
+.navbar-text a { color:#fff;}
 #app-tray {
   background: #fff;
   height: 57px;
@@ -157,8 +158,8 @@ h3{ font-size:20px; color:#36495a; font-weight:normal; padding:0; margin:0; line
 	background-size: cover;
 	min-height: 160px;
 	color: #fff; }
-.client ul{ list-style:none; margin:0; padding:0; display:table; height:160px;  }
-.client ul li{  margin-right:20px; width:20%; display:table-cell; text-align:center; vertical-align:middle;} 
+.client ul{ list-style:none; margin:0; padding:0; display:block; height:160px;  }
+/*.client ul li{  margin-right:20px; width:20%; display:table-cell; text-align:center; vertical-align:middle;}*/
 
 .modulecon{ background:#f5f6f7; margin-bottom:20px;}
 .bottom-modules {
@@ -504,6 +505,346 @@ hr.seperator {
 	height:1px;
 	background:#d7d8db;
 }
+/* =-=-=-=-=-=-=-=-=-=- family_guardian =-=-=-=-=-=-=-=-=-=- */
+
+.family_guardian .header.product-head .container {
+	padding-top: 268px;
+}
+.family_guardian .header.product-head {
+	background:url(../images/bcg1_Family_Guardian.jpg) no-repeat center;
+	background-size:cover;
+	height:auto;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.family_guardian .protect_child {
+	font-family:"FrutigerLTW01-45Light";
+	color:#000;
+	font-weight:normal !important;
+}
+.family_guardian .protect_child h1 {	
+	font-size:40px;
+	font-weight:normal !important;
+}
+.family_guardian .protect_child h5 {	
+	font-size:22px;
+	font-weight:normal !important;
+}
+.family_guardian .rebon-down {
+	background: url("../images/nav2bg-family_guardian.png") repeat scroll 0 0 transparent
+}
+.family_guardian .rebon-down a {
+	color:#414042;
+}
+.family_guardian .brand-all {
+	background: url("../images/nav3bg-family_guardian.png") repeat scroll 0 0 transparent
+}
+.family_guardian .section-1st ul {
+	margin-left:0;
+	margin-top:32px;
+}
+.family_guardian .section-1st ul li {
+	list-style:none;
+	color:#9D9EA0;
+	line-height:30px;
+}
+.family_guardian .section-2st h3 {
+	font-family:"Frutiger LT W01 65 Bold";
+	font-size:30px;
+}
+.family_guardian .section-2st h3 sup {
+	font-size: 11px;
+    position: relative;
+    top: -7px;
+}
+.family_guardian .section-2st .span6.offset1 {
+	margin-left:80px;
+}
+.family_guardian .product-fiture-list .li-item-txt {
+    float: left;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 310px;
+	color:#9d9ea0;
+}
+.family_guardian .product-fiture-list .li-item {
+	margin-top:5px;
+}
+.family_guardian .phone-nq {
+	width:279px;
+	height:553px;
+	position:absolute;
+	padding:81px 0 0 21px;
+	background:url(../images/cell-phone-slider.png) no-repeat;
+}
+.family_guardian .section-2st {
+	height:395px;
+}
+.family_guardian .section-3rd {
+    background: url("../images/darl-bg_Family_Guardian.png") repeat-x scroll 0 0 #efb234;
+    margin: 0;
+    padding:45px 0 17px;
+	color:#000;
+}
+.family_guardian .section-3rd h5 {
+	margin-top:30px;
+	margin-bottom:0;
+	color:#000;
+	font-size:18px;
+	font-family:"Frutiger LT W01 65 Bold";
+}
+.family_guardian .section-3rd p {
+	color:#000;
+	font-size:16px;
+	font-family:"FrutigerLTW01-45Light";
+}
+.family_guardian .section-4rd {
+	min-height:800px;
+	margin-bottom:0;
+}
+.family_guardian .section-4rd .row {
+	position:relative;
+}
+.family_guardian .section-5rd  {
+	background:#f0f2f4;
+}
+.geo {
+	min-height:140px;
+}
+.geo h1 {
+	font-size:33px;
+	text-align:left;
+	line-height:52px;
+	color:#000;
+	margin:0;
+	font-family:"FrutigerLTW01-55Roman";
+	
+}
+.geo p {
+	font-size:20px;
+	text-align:left;
+	color:#54565c;
+	line-height:normal;
+	font-family:"FrutigerLTW01-45Light";
+}
+.geo-location {
+	margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: auto;
+    z-index: -1;
+	right: 0;
+}
+.family_guardian .understanding-txt {
+	position:relative;
+	margin-top:90px;
+}
+.family_guardian .understanding-txt h3 {
+	font-size:21px;
+	line-height:25px;
+	margin-bottom:6px;
+}
+.family_guardian .understanding-txt p {
+	font-size:16px;
+	line-height:25px;
+	margin-bottom:6px;
+}
+.family_guardian .section-5rd h1 {
+	font-size:29px;
+	font-weight:normal;
+	text-align:center;
+	color:#000;
+	font-family:"FrutigerLTW01-55Roman";
+	margin-bottom:35px;
+}
+.slid-inside-scoop {
+    min-height: 510px;
+    text-align: center;
+    width: 100%;
+}
+.family_guardian .section-6rd h1 {
+	font-size:29px;
+	font-weight:normal;
+	color:#000000;
+	margin-bottom:33px;
+	font-family:"FrutigerLTW01-45Light";
+}
+.family_guardian .section-6rd p {
+	font-size:29px;
+	line-height:35px;
+	font-weight:300;
+	color:#000000;
+	font-family:"Lato";
+}
+
+.family_guardian .section-6rd {
+	background:url(../images/all-co-icons.jpg) repeat-x bottom center;
+	
+}
+.family_guardian .section-7rd  {
+	background:#e4e6eb;
+	padding-top:43px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=- END family_guardian =-=-=-=-=-=-=-=-=-=- */
+
+/* =-=-=-=-= Sartphones -=-=-=-=-=-=- */
+.blue {
+	color:#23a4ff;
+}
+
+
+/* clearfix */
+
+.smartphones .clearfix {
+	margin-top:48px;
+}
+.smartphones .apps .txt-slide {
+	margin-top:60px;
+}
+/* apps */
+.smartphones .slid-inside-scoop .carousel-indicators {
+	margin-bottom:28px;
+}
+.smartphones .apps {
+	margin-top:16px;
+}
+.smartphones .apps .txt-slide {
+	margin-top:60px;
+}
+/* Browser History */
+
+.smartphones .browser {
+	margin-top:60px;
+}
+.smartphones .browser .txt-slide {
+	margin-top:68px;
+	
+}
+.smartphones .browser .slide-align h5 {
+	font-family:"FrutigerLTW01-55Roman";
+	font-size:16px;
+	font-weight:normal;
+	color:#363636;
+	margin-bottom:28px;
+}
+.smartphones .browser .slide-align li {
+	float:left;
+	list-style:none;
+	width:120px;
+	height:auto;
+	margin-right:30px;
+}
+.smartphones .browser .slide-align li.right {
+	margin-right:0;
+}
+.smartphones .browser .slide-align li p {
+	font-family:"FrutigerLTW01-55Roman";
+	font-size:12px;
+	font-weight:normal;
+	color:#95979b;
+	margin-top:12px;
+}
+
+/* Camera photos */
+
+.smartphones .camera {
+	margin-top:0px;
+}
+.smartphones .camera .txt-slide {
+	margin-top:68px;
+	
+}
+/* Camera photos */
+
+.smartphones .location {
+	margin-top:0px;
+}
+.smartphones .location .txt-slide {
+	margin-top:68px;
+	
+}
+/* messages */
+.smartphones .messages {
+	margin-top:0px;
+}
+.smartphones .messages .slide-align {
+	margin-top:15px;
+}
+.smartphones .messages .slide-align ul {
+	margin-left:50px;
+	width:300px;
+	background:url(../images/Call_messages.png) no-repeat center top;
+}
+.smartphones .messages .slide-align ul li {
+	clear: both;
+    display: block;
+    height: 65px;
+    list-style: none outside none;
+    position: relative;
+    width: 100%;
+}
+.smartphones .messages .slide-align ul li h5 {
+	text-align:left;
+	font-family:"Frutiger LT W01 65 Bold";
+}
+.smartphones .messages .slide-align li .img-ico {
+	position:absolute;
+	text-align:center;
+	width:45px;
+}
+.smartphones .messages .slide-align li span.left {
+	color: #666666;
+    display: block;
+    float: left;
+    font-family: "FrutigerLTW01-45Light";
+    font-size: 12px;
+    text-align: left;
+    width: 100px;
+	line-height:36px;
+}
+
+.smartphones .messages .slide-align li span.right {
+	font-size:18px;
+	color:#666666;
+	float:right;
+	font-family:"FrutigerLTW01-55Roman";
+	line-height:36px;
+}
+.smartphones .messages .txt-slide {
+	margin-top:68px;
+	
+}
+
+/* =-===-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.slid-inside-scoop .carousel-indicators { position:relative; clear:both; top:0; max-width:840px; overflow:hidden; margin:0 auto; right:auto; margin-bottom:80px;}
+.slid-inside-scoop .carousel-indicators li { background:url(../images/data-slide-border.png) repeat-y right #858ea2; border-radius:0; display:block; height:68px; margin:0; text-indent:0; width: 16.666%; line-height:68px; text-align:center; color:#fff; font-size:14px; cursor:pointer;}
+.slid-inside-scoop .carousel-indicators li.end { background-image:none;}
+.slid-inside-scoop .carousel-indicators .active {
+    background: #434c55;
+}
+.slide-align { text-align:center;}
+.slide-describe { text-align:left; padding:0 5% 0 0;}
+.slide-describe h3 { font-size:32px; color:#42becd; line-height:36px; margin:0 0 20px 0; font-weight:normal;}
+.slide-describe p { color:#727272; font-size:16px; line-height:23px; margin:0 0 20px 0; padding:0 20% 0 0;}
+.slid-inside-scoop .carousel-control { background: url(../images/carousel-arrow-left.png) no-repeat center center;
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    font-size: 0;
+    left: 15px;
+    margin-top: -20px;
+    opacity: 0.5;
+    top: 50%;
+}
+.slid-inside-scoop .carousel-control.right {
+	background: url(../images/carousel-arrow-right.png) no-repeat center center;
+    left: auto;
+    right: 15px;
+}
+
+/* =-=-=-=-= End Sartphones -=-=-=-=-=-=- */
 /* =-=-=-=-= FOOTER =-=-=-=-=-= */
 footer {
 	clear:both;
@@ -579,6 +920,33 @@ footer h6 {
 	opacity:0.8;
 }
 .span12.center-align { float:none; margin:0 auto;}
+
+.sequence-list .span6 { position:absolute; left:0; top:0;}
+.sequence-list .span5 { position:absolute; right:0; top:0;}
+
+.home-header { z-index:1;}
+.app-tray-cont { position:relative; z-index:3;}
+
+.phone-nq { width:345px; height:560px; background:url(../images/flip-frame.png) no-repeat top center; position:relative;}
+.phone-nq-inside { width:256px; height:410px; position:relative; overflow:hidden;}
+
+#midCarousel .carousel-control { background: url(../images/carousel-arrow-left.png) no-repeat center center;
+    border: 0px solid #FFFFFF;
+    border-radius: 0;
+    font-size: 0;
+    left: 15px;
+    margin-top: -20px;
+    opacity: 0.5;
+    top: 30%;
+	z-index:10;
+}
+#midCarousel .carousel-control.right {
+	background: url(../images/carousel-arrow-right.png) no-repeat center center;
+    left: auto;
+    right: 15px;
+}
+
+
 @media (min-width:768px) and (max-width:979px) {
 	
 	.bottom-modules .span3 {
@@ -587,7 +955,11 @@ footer h6 {
 	}
 	
 }
-
+@media(max-width:984px){
+	.understanding-txt { margin-top:15px;}
+	.understanding-phone { max-width:80%;}
+	#midCarousel .offset4 { text-align:right;}
+}
 @media (max-width: 979px) {
 	.container.app-tray-cont {
 		
@@ -617,13 +989,13 @@ footer h6 {
 	.container-fluid.header .span5.offset1 {
 		margin-left:0;
 	}
-	.win-google li { margin-right:20px;}
+	.win-google a { margin-right:20px; float:none; display:inline-block;}
 	#app-tray ul { text-align:center;}
 	#app-tray ul li { float:none !important; display:inline-block;}
 	#app-tray .row a { width:160px; float:none; display:inline-block;
 	
 }
-	@media (max-width: 820px) {
+@media (max-width: 820px) {
   /* line 25, ../../_assets/sass/_app-tray.scss */
   #app-tray .row li:nth-child(3) {
     display: none;
@@ -682,13 +1054,13 @@ footer h6 {
 	.product-fiture-list .li-item-txt {
 		width:100%;
 	}
-	.phone-nq img {
-		display:none;
-	}
+	
 	.understanding-phone {
-		display:none;
+		display:block;
+		margin:0 auto;
+		max-width:60%;
 	}
-	.understanding-txt { position:relative; padding:0 0 80px; margin:25px 0 0 0;}
+	.understanding-txt { position:relative; padding:0 0 40px; margin:25px 0 0 0;}
 	.section-3rd .span5 p {
 		width:80%;
 		display:table;
@@ -725,7 +1097,7 @@ footer h6 {
 		margin:0 auto;
 		text-align:center;
 	}
-	.client li {
+	/*.client li {
 		width:100% !important;
 		display:block !important;
 		margin:20px 0 !important;
@@ -735,9 +1107,9 @@ footer h6 {
 		width:auto;
 		display:block;
 		margin:0 auto;
-	}
+	}*/
 	footer .ul-list h6 a {
-		width:300px;
+		width:80%;
 		background:#fff;
 		border:1px #CCC solid;
 		display:block;
@@ -789,7 +1161,7 @@ footer h6 {
 @media(max-width:876px) {
 	.brand-all ul li.windows {
 		display:none;
-	}}
+	}
 }
 @media(max-width:579px) {
 	.brand-all ul li.app-store {
@@ -809,18 +1181,14 @@ footer h6 {
 	}
 }
 @media(max-width:780px) {
-	.client li {
-		margin:0 auto;
-		margin-top:20px;
-		margin-bottom:20px;
-		margin-right:0 !important;
-	}
+	.client li { margin:0 auto;	margin-top:20px; margin-bottom:20px; margin-right:0 !important;	}
 	.home-header { position:relative; overflow:hidden;}
 }
 @media(max-width:768px) {
-.header h2 { margin-top:20px;}
-.win-google { text-align:center; padding-bottom:15px; clear:both;}
-.win-google li img { margin:0 !important;}
+	.header h2 { margin-top:20px;}
+	.win-google { text-align:center; padding-bottom:15px; clear:both;}
+	.win-google a img { margin:0 !important;}
+	.phone-nq { margin:0 auto;}
 }
 @media(max-width:767px) {
 	.header.home-header .aim-phone img { width:190px;}
@@ -829,5 +1197,22 @@ footer h6 {
 	#app-tray figure { width:120px;}
 	#app-tray .row a { width:120px;}
 }
- @media(max-width:320px) {
+@media(max-width:480px) {
+	.section-3rd .span5 h3 { font-size:22px;}
+	.section-3rd .span5 h5 { font-size:18px;}
+	.section-3rd .span5 p { font-size:14px; line-height:20px;}
+	.section-4rd .span12 h3, .section-2st h3 { font-size:24px;}
+	.understanding-txt p { font-size:14px; line-height:18px;}
+	.understanding-txt h3, .section-4rd .span12 p { font-size:16px;}
+	.section-1st p { font-size:14px;}
+	.section-1st h3 { font-size:18px;}
+}
+@media(max-width:320px){
+	.header.home-header h2 { font-size: 24px; line-height:28px;}
+	.header h3 { font-size: 14px; line-height: 20px;}
+	.win-google { height:auto;}
+	.win-google a {	float: none; margin-right:0; margin-bottom:10px;}
+	#app-tray ul li#all-products { display:none;}
+	.navbar-inner { padding-left:0; padding-right:10px;}
+	.img-circles li { margin-right: 0; width: 100px;}
 }
